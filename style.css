@@ -1,35 +1,37 @@
 
-        body {
-            background-color: #03a406;
-        }
-        .bar {
-            background-color: #FFD700;
-            padding: 40px;
-            margin-left: -8px;
-            margin-top: -8px;
-            height: 20px;
-            color: white;
-            opacity: 1;
-            border-style: solid;
-            border-color: black;
-            position: fixed;
-            text-align: center;
-        }
-        .header {
-            opacity: 1;
-            color: black;
-            text-decoration-line: none;
-            border-style: none solid;
-            padding: 15px;
-            transition: 1s all ease;
-        }
-        .header:hover {
-            color: green;
-            transition: 1s all ease;
-        }
-        .body {
-            text-align: center;
-        }
-        h1 {
-            text-align: center;
-        }
+body {
+        background-color: #03a406;
+        background-image: url("bckgrd.jpg");
+        background-repeat: none;
+}
+.bar {
+        background-color: #FFD700;
+        padding: 40px;
+        margin-left: -8px;
+        margin-top: -8px;
+        height: 20px;
+        color: white;
+        opacity: 1;
+        border-style: solid;
+        border-color: black;
+        position: fixed;2
+        text-align: center;
+}
+.header {
+        opacity: 1;
+        color: black;
+        text-decoration-line: none;
+        border-style: none solid;
+        padding: 15px;
+        transition: 1s all ease;
+}
+.header:hover {
+        color: green;
+        transition: 1s all ease;
+}
+.body {
+        text-align: center;
+}
+h1 {
+        text-align: center;
+}
