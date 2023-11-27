@@ -5,9 +5,9 @@
         .bar {
             background-color: #FFD700;
             padding: 40px;
-            margin: -8px;
+            margin-left: -8px;
+            margin-top: -8px;
             height: 20px;
-            width: 100%;
             color: white;
             opacity: 1;
             border-style: solid;
