@@ -4,9 +4,12 @@ body {
         background-repeat: none;
         background-size: cover;
         overflow-y: scroll;
+        /*For other browsers*/
+        -ms-overflow-style: none;
+        scrollbar-width: none; 
 }
 body::-webkit-scrollbar {
-        display: hidden;
+        display: none;
 }
 .bar {
         background-color: rgb(0, 0, 0, 0.6);
