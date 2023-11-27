@@ -3,6 +3,7 @@ body {
         background-image: url("background.jpeg");
         background-repeat: none;
         background-size: cover;
+        overflow: hidden;
 }
 .bar {
         background-color: rgb(0, 0, 0, 0.6);
@@ -39,6 +40,8 @@ h1 {
         background-color: rgb(0, 0, 0, 0.6);
         padding: 40px;
         margin-bottom: -40px;
+        margin-right: -8px;
+        margin-left: -8px;
 }
 .footlinks {
         color: white;
