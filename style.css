@@ -3,7 +3,7 @@ body {
         background-image: url("background.jpeg");
         background-repeat: none;
         background-size: cover;
-        overflow: hidden;
+        overflow-y: scroll;
 }
 body::-webkit-scrollbar {
         display: hidden;
