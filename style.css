@@ -3,10 +3,6 @@ body {
         background-image: url("bckgrd.jpg");
         background-repeat: none;
 }
-.body {
-        background-color: black;
-        opacity: 0.8
-}
 .bar {
         background-color: black;
         opacity: 0.4;
