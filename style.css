@@ -48,10 +48,10 @@ body::-webkit-scrollbar {
         color: white;
         background-color: rgb(0, 255, 0, 0.6);
 }
-.person#junior {
+#junior {
         background-color: rgb(255, 255, 0, 0.6) !important;
 }
-.person#honorary {
+#honorary {
         background-color: rgb(255, 255, 255, 0.6) !important;
 }
 .inner {
