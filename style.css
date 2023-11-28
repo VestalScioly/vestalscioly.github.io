@@ -29,6 +29,7 @@ body::-webkit-scrollbar {
         padding: 15px;
         border-style: {none solid none none};
         border-width: 2px;
+        border-color: white;
         margin-left: -5px;
         transition: 1s all ease;
 }
