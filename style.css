@@ -40,15 +40,13 @@ body {
 body::-webkit-scrollbar {
         display: none;
 }
-.banner {
-        padding: 5px;
-}
 .person {
         color: white;
         background-color: rgb(0, 255, 0, 0.6);
         width: 30%;
         margin-left: -8px;
         margin-right: -8px;
+        padding: 5px;
         text-align: center;
 }
 #junior {
