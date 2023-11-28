@@ -30,7 +30,7 @@ body::-webkit-scrollbar {
         border-style: none solid none none;
         border-width: 2px;
         border-color: white;
-        margin-left: -4px;
+        margin-left: -3px;
         transition: 1s all ease;
 }
 .header:hover {
