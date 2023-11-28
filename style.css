@@ -27,6 +27,9 @@ body::-webkit-scrollbar {
         text-align: center;
         text-decoration-line: none;
         padding: 15px;
+        border-style: {none solid none none};
+        border-width: 2px;
+        margin-left: -5px;
         transition: 1s all ease;
 }
 .header:hover {
