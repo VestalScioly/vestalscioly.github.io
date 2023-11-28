@@ -22,6 +22,7 @@ body::-webkit-scrollbar {
         text-align: center;
 }
 .header {
+        backgroud-color: rgb(0,0,0,0.6);
         color: white;
         text-align: center;
         text-decoration-line: none;
@@ -29,7 +30,7 @@ body::-webkit-scrollbar {
         transition: 1s all ease;
 }
 .header:hover {
-        color: green;
+        background-color: rgb(0,0,0,1);
         transition: 1s all ease;
 }
 .inner {
