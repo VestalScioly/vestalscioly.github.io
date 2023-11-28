@@ -42,7 +42,6 @@ body::-webkit-scrollbar {
 }
 .banner {
         padding: 5px;
-        text-align: center;
 }
 .person {
         color: white;
@@ -50,6 +49,7 @@ body::-webkit-scrollbar {
         width: 30%;
         margin-left: -8px;
         margin-right: -8px;
+        text-align: center;
 }
 #junior {
         background-color: rgb(255, 255, 0, 0.6) !important;
