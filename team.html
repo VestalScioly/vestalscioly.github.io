@@ -38,11 +38,14 @@
     </footer>
     <script>
       function showBio(n) {
-        if (n == 1) {
-          var i = getElementById("senior1");
-          i.style.height = 50px;
-          break;
+        var temp = document.querySelectorAll(".person");
+        for(var j = 0; j < temp.length; j++) {
+          temp[j].style.height = "auto";
         }
+        if (n == 4) {
+          var i = getElementById("senior1");
+        }
+        i.style.heigh = 50px;
       }
     </script>
   </body>
