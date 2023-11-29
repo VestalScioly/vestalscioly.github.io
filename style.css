@@ -28,11 +28,10 @@
         border-style: none !important;
 }
 body {
-        background-color: #03a406;
         background-image: url("background.jpeg");
         background-repeat: none;
         background-size: cover;
-        text-align:center;
+        text-align: center;
         overflow-y: scroll;
         /*For other browsers*/
         -ms-overflow-style: none;
