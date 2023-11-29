@@ -53,7 +53,7 @@ body::-webkit-scrollbar {
         transition: 1s all ease;
 }
 .person:hover {
-        color:black;
+        color: black;
         transition: 1s all ease;
 }
 #junior {
