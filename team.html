@@ -37,15 +37,15 @@
       </ul>
     </footer>
     <script>
-      function showBio(n) {
+      function showBio(bok) {
         var temp = document.querySelectorAll(".person");
         for(var j = 0; j < temp.length; j++) {
           temp[j].style.height = "auto";
         }
-        if (n == 4) {
-          var i = getElementById("senior1");
+        if (bok == 4) {
+          var i = document.getElementById("senior1");
         }
-        i.style.heigh = 50px;
+        i.style.height = 50px;
       }
     </script>
   </body>
