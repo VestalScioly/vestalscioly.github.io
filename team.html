@@ -19,9 +19,9 @@
     <p class = "inner">
       Each year, we run 2 teams, Green and Gold. Our team is headed by 3 advisers. There are 6 captains: 5 senior and junior captains, and 1 honorary captain. Check out their bios below!
     </p>
-    <div class = "person" onclick = "showBio()">Ms. Pointer</div><div class = "person" onclick = "showBio()">Mr. Brembs</div><div class = "person" onclick = "showBio()">Ms. Chantry</div>
-    <div class = "person" id = "senior1" onclick = "showBio()">Marko Boyko</div><div class = "person" id = "senior2" onclick = "showBio()">Keith Dai</div><div class = "person" id = "junior1" onclick = "showBio()">Sofia Moroz</div>
-    <div class = "person" id = "junior2" onclick = "showBio()">Addison Shipp</div><div class = "person" id = "junior3" onclick = "showBio()">Sindi Zhou</div><div class = "person" id = "honorary" onclick = "showBio()">Delphin-Zinkin Fan</div>
+    <div class = "person" onclick = "showBio(this)">Ms. Pointer</div><div class = "person" onclick = "showBio(this)">Mr. Brembs</div><div class = "person" onclick = "showBio(this)">Ms. Chantry</div>
+    <div class = "person" id = "senior1" onclick = "showBio(this)">Marko Boyko</div><div class = "person" id = "senior2" onclick = "showBio(this)">Keith Dai</div><div class = "person" id = "junior1" onclick = "showBio(this)">Sofia Moroz</div>
+    <div class = "person" id = "junior2" onclick = "showBio(this)">Addison Shipp</div><div class = "person" id = "junior3" onclick = "showBio(this)">Sindi Zhou</div><div class = "person" id = "honorary" onclick = "showBio(this)">Delphin-Zinkin Fan</div>
     <br><br><br><br><br><br>
     <br><br><br><br><br><br>
     <br><br><br><br><br><br>
@@ -37,13 +37,12 @@
       </ul>
     </footer>
     <script>
-      function showBio() {
+      function showBio(element) {
         var t = document.querySelectorAll(".person");
         for(var j = 0; j < t.length; j++) {
           t[j].style.height = "auto";
         }
-        this.style.height = "50px";
-        this.style.hieght = 50px;
+        element.style.height = "50px";
       }
     </script>
   </body>
