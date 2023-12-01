@@ -19,9 +19,9 @@
     <p class = "inner">
       Each year, we run 2 teams, Green and Gold. Our team is headed by 3 advisers. There are 6 captains: 5 senior and junior captains, and 1 honorary captain. Check out their bios below!
     </p>
-    <div class = "person" onclick = "showBio(1)">Ms. Pointer</div><div class = "person" onclick = "showBio(2)">Mr. Brembs</div><div class = "person" onclick = "showBio(3)">Ms. Chantry</div>
-    <div class = "person" id = "senior1" onclick = "showBio(4)">Marko Boyko</div><div class = "person" id = "senior2" onclick = "showBio(5)">Keith Dai</div><div class = "person" id = "junior1" onclick = "showBio(6)">Sofia Moroz</div>
-    <div class = "person" id = "junior2" onclick = "showBio(7)">Addison Shipp</div><div class = "person" id = "junior3" onclick = "showBio(8)">Sindi Zhou</div><div class = "person" id = "honorary" onclick = "showBio(9)">Delphin-Zinkin Fan</div>
+    <div class = "person" onclick = "showBio()">Ms. Pointer</div><div class = "person" onclick = "showBio()">Mr. Brembs</div><div class = "person" onclick = "showBio()">Ms. Chantry</div>
+    <div class = "person" id = "senior1" onclick = "showBio()">Marko Boyko</div><div class = "person" id = "senior2" onclick = "showBio()">Keith Dai</div><div class = "person" id = "junior1" onclick = "showBio()">Sofia Moroz</div>
+    <div class = "person" id = "junior2" onclick = "showBio()">Addison Shipp</div><div class = "person" id = "junior3" onclick = "showBio()">Sindi Zhou</div><div class = "person" id = "honorary" onclick = "showBio()">Delphin-Zinkin Fan</div>
     <br><br><br><br><br><br>
     <br><br><br><br><br><br>
     <br><br><br><br><br><br>
@@ -37,19 +37,14 @@
       </ul>
     </footer>
     <script>
-      function showBio(bok) {
-        window.alert("TEST");
+      function showBio() {
+        alert("TEST");
         var t = document.querySelectorAll(".person");
-        var p;
         for(var j = 0; j < t.length; j++) {
           t[j].style.height = "auto";
-          window.alert(j);
+          alert(j);
         }
-        if (bok == 4) {
-          p = document.getElementById("senior1");
-          window.alert(t);
-        }
-        p.style.height = 50px;
+        this.style.height = 50px;
       }
     </script>
   </body>
