@@ -30,7 +30,7 @@
 body {
         background-image: url("background.jpeg");
         background-repeat: none;
-        background-size: contain;
+        background-size: cover;
         background-attachment: fixed;
         text-align: center;
         overflow-y: scroll;
