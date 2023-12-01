@@ -55,13 +55,10 @@ body::-webkit-scrollbar {
         height: auto;
 }
 .person>img {
-        visibility: hidden;
-}
-.person.active {
-        height: 100px;
+        display: none;
 }
 .person.active>img {
-        visibility: visible;
+        display: block;
 }
 .person:hover {
         color: black;
