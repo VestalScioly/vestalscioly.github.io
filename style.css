@@ -54,8 +54,14 @@ body::-webkit-scrollbar {
         cursor: context-menu;
         height: auto;
 }
+.person>img {
+        visibility: hidden;
+}
 .person.active {
         height: 100px;
+}
+.person.active>img {
+        visibility: visible;
 }
 .person:hover {
         color: black;
