@@ -30,7 +30,7 @@
 body {
         background-image: url("background.jpeg");
         background-repeat: none;
-        background-size: cover;
+        background-size: contain;
         text-align: center;
         overflow-y: scroll;
         /*For other browsers*/
