@@ -51,6 +51,10 @@ body::-webkit-scrollbar {
         display: inline-block;
         transition: 1s all ease;
         cursor: context-menu;
+        height: auto;
+}
+.person.active {
+        hieght: 100px;
 }
 .person:hover {
         color: black;
