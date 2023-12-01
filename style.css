@@ -50,6 +50,7 @@ body::-webkit-scrollbar {
         border-radius: 5px;
         display: inline-block;
         transition: 1s all ease;
+        cursor: context-menu;
 }
 .person:hover {
         color: black;
