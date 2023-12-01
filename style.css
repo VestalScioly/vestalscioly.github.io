@@ -54,7 +54,7 @@ body::-webkit-scrollbar {
         height: auto;
 }
 .person.active {
-        hieght: 100px;
+        height: 100px;
 }
 .person:hover {
         color: black;
