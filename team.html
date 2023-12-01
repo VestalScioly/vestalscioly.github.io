@@ -38,16 +38,18 @@
     </footer>
     <script>
       function showBio(bok) {
+        window.alert("TEST");
         var t = document.querySelectorAll(".person");
+        var p;
         for(var j = 0; j < t.length; j++) {
           t[j].style.height = "auto";
           window.alert(j);
         }
         if (bok == 4) {
-          t = document.getElementById("senior1");
+          p = document.getElementById("senior1");
           window.alert(t);
         }
-        t.style.height = 50px;
+        p.style.height = 50px;
       }
     </script>
   </body>
