@@ -59,6 +59,8 @@ body::-webkit-scrollbar {
 }
 .person.active>img {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
 }
 .person:hover {
         color: black;
